@@ -1,0 +1,3 @@
+* Academinimalistic
+
+A minimalistic hugo theme for my personal webpage.
