@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<br><br>
-{{ .Content }}
+<div class="w3-container">
+  {{- partial "page-content.html" . -}}
+</div>
 {{ end }}
