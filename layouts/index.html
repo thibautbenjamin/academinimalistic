@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="w3-sidebar w3-bar-block" style="width:25%;">
+  {{- partial "sidepanel.html" . -}}
+</div>
+
+<div class="w3-container", style="margin-left:25%">
+  <div class="w3-row">
+    <div class= "w3-col s1 m1 l1">
+      &nbsp;
+    </div>
+    <div class= "w3-col s10 m10 l10">
+      {{ .Content }}
+    </div>
+    <div class= "w3-col s1 m1 l1">
+      &nbsp;
+    </div>
+  </div>
+</div>
+{{ end }}

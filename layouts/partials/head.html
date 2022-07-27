@@ -1,0 +1,13 @@
+<div class="w3-top w3-white", style="height:3.8em%;">
+  <div class= "w3-topbar w3-border-indigo w3-white">
+    <div class="w3-container w3-bar w3-border-bottom">
+      <a class="w3-bar-item w3-button w3-large w3-hover-none w3-text-indigo" href= {{ .Site.BaseURL }}> <b>{{ .Site.Title }}</b> </a>
+      {{ range .Site.Menus.main }}
+      <a class="w3-bar-item w3-button w3-large w3-hover-none w3-border-white w3-bottombar w3-hover-border-indigo w3-right" href="{{ .URL }}">
+        {{ $text := print .Name | safeHTML }}
+        {{ $text }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>

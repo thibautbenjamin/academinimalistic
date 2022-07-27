@@ -1,0 +1,129 @@
+h1{
+    text-align: right;
+}
+
+h2, h3{
+    color:#3f51b5!important;
+}
+
+h2{
+    font-weight: bold!important;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.infos{
+    margin: 18px;
+    font-size: 30px;
+}
+
+.description{
+    margin: 18px;
+    font-size: 24px;
+}
+
+.footer {
+  color: lightgray;
+}
+
+a:link, a:visited {
+    color:#3f51b5;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color:#3f51b5;
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* .content{ */
+/*     height: 100% */
+/* } */
+
+/* .top-panel { */
+/*     position: fixed; */
+/*     top: 0; */
+/*     border-top: 5px solid #4f5ac6; */
+/*     border-bottom: 1px solid lightgray; */
+/*     padding-left: 2%; */
+/*     padding-right: 2%; */
+/*     background-color: white; */
+/*     width: 100%; */
+/*     height: 70px; */
+/* } */
+
+/* .home-layout{ */
+/*     margin-top: 75px; */
+/*     min-height: 100%; */
+/* } */
+
+/* .site-title-wrapper{ */
+/*     width: 40%; */
+/*     display: inline-block; */
+/*     height: 100%; */
+/*     vertical-align: center; */
+/* } */
+
+/* .site-title{ */
+/*     font-size: 1.5em; */
+/*     color: #4f5ac6; */
+/*     vertical-align: center; */
+/* } */
+
+/* .site-menu{ */
+/*     width: 40%; */
+/*     display: inline-block; */
+/*     text-align: right; */
+/*     margin-right: 5%; */
+/*     height: 100%; */
+/*     float: right; */
+/* } */
+
+/* .site-menu-entry{ */
+/*     font-size: 1.5em; */
+/*     color: #4f5ac6; */
+/*     vertical-align: center; */
+/*     margin: 1%; */
+/* } */
+
+/* .sidepanel { */
+/*     width: 25%; */
+/*     padding: 1rem 1rem; */
+/*     border-right: double lightgray; */
+/*     position: fixed; */
+/*     left: 0; */
+/* } */
+
+/* .sidepanel-title { */
+/*     text-align: center; */
+/* } */
+
+/* .sidepanel-description { */
+/*     margin-left: 2%; */
+/*     font-size: 1.2em; */
+/*     color: gray; */
+/*     text-align: center; */
+/* } */
+
+/* .sidepanel-infotable { */
+/*     display: block; */
+/* } */
+
+/* .sidepanel-entry { */
+/*     font-size: 1.2em; */
+/*     color: gray; */
+/*     display: block; */
+/* } */
+
+/* .home-content { */
+/*     width: 100%; */
+/*     margin-left: 25%; */
+/*     padding: 1rem 5rem; */
+/* } */
+
+/* .sidebar-picture { */
+/*     max-width: 50%; */
+/* } */
