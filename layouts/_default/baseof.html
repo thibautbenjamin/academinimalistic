@@ -5,6 +5,16 @@
     <body>
         <div class="w3-container", style="margin-top: 3.8em;">
         {{- block "main" . }}{{- end }}
+        <script>
+          function show(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+          } else {
+          x.className = x.className.replace(" w3-show", "");
+          }
+          }
+        </script>
         </div>
         {{- partial "footer.html" . -}}
     </body>
