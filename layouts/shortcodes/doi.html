@@ -1,4 +1,4 @@
 <a class="w3-button w3-indigo w3-round-xxlarge w3-small"
-   href={{ (delimit (slice "https://doi.org/" .Inner) "") }}>
+   href={{ (delimit (slice "https://doi.org/" (.Get 0)) "") }}>
   doi
 </a>
