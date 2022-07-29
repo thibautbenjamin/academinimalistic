@@ -14,6 +14,17 @@
           x.className = x.className.replace(" w3-show", "");
           }
           }
+
+          function showPopup(id) {
+          let container = document.getElementById(id);
+          container.classList.add('show');
+          container.addEventListener('click', (event) => {
+          if (event.target.matches('.popupContainer')) {
+          container.classList.remove('show');
+          }
+          });
+          }
+
         </script>
         </div>
         {{- partial "footer.html" . -}}
